@@ -336,6 +336,10 @@ func IframeContentHandler(ctx *App, res http.ResponseWriter, req *http.Request) 
               },
               "editorConfig": {
                   "callbackUrl": "%s/onlyoffice/event",
+				  "coEditing": {
+					"mode": "fast",
+					"change": true
+				  },
                   "mode": "%s",
                   "customization": {
                       "autosave": false,

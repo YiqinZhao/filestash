@@ -298,7 +298,7 @@ export class ShareComponent extends React.Component {
                             ref={this.$input}
                             className="copy"
                             type="text"
-                            value={window.location.origin+"/s/"+(this.state.url || this.state.id)}
+                            value={"https://files.yiqinzhao.me"+"/s/"+(this.state.url || this.state.id)}
                             readOnly />
                         <div>
                             <button title={t("Copy URL")}>
